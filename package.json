@@ -8,6 +8,7 @@
     },
     "devDependencies": {
         "cypress": "latest",
+        "cypress-cucumber-preprocessor": "^4.3.1",
         "cypress-mochawesome-reporter": "latest",
         "cypress-xpath": "latest",
         "dotenv": "latest",

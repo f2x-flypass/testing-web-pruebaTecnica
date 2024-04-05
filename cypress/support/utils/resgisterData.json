@@ -1,0 +1,21 @@
+{
+  "informacionRegistro": {
+    "Nombres": "Examen",
+    "Apellidos": "QA",
+    "CodigoReferencia": "",
+    "Identificacion": {
+      "Tipo": "CC",
+      "Numero": 3175185983
+    },
+    "Celular": "3001234567",
+    "Departamento": "Antioquia",
+    "Municipio": "Medellin",
+    "InformacionPersonal": {
+      "Hogar": {
+        "Direccion": "Crra 18 #12-15"
+      },
+      "CorreoElectronico": "prueba@prueba.com"
+    },
+    "Contraseña": "prueba1234"
+  }
+}

@@ -10,7 +10,6 @@ const connection = {
   password: process.env.DB_PASSWORD,
   connectString: process.env.DB_CONNECT_STRING,
 };
-
 // Establece la función para realizar consultas a la base de datos Oracle
 function queryDB(query) {
   return new Promise((resolve, reject) => {
@@ -47,7 +46,6 @@ function queryDB(query) {
     });
   });
 }
-
 module.exports = defineConfig({
   // Ajusta el tiempo de espera predeterminado en milisegundos
   defaultCommandTimeout: 5000,

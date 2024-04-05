@@ -1,0 +1,11 @@
+export const SELECTOR_NOMBRE = '#names';
+export const SELECTOR_APELLIDO = '#lastName';
+export const SELECTOR_TIPODOCUMENTO = '#documentType';
+export const SELECTOR_DOCUMENTO = '#document';
+export const SELECTOR_CELULAR = '#cellphone';
+export const SELECTOR_DEPARTAMENTO = '#department';
+export const SELECTOR_MUNICIPIO = '#city';
+export const SELECTOR_DIRECCION = '#direccion';
+export const SELECTOR_EMAIL = '#email';
+export const SELECTOR_CONTRASENA = '#password';
+export const SELECTOR_TERMINOS = '#terms';
