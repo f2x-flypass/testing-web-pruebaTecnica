@@ -3,6 +3,7 @@ import * as ui from '../support/ui/loginUI.js'
 describe("Realizar login en la aplicación", ()=>{
     beforeEach(() => {
         // Eliminar cookies antes de cada prueba
+
         cy.clearCookies();
         cy.visit("/");
     }); 

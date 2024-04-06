@@ -25,5 +25,4 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 import "./commands/interacciones"
-import "./commands/createUser.js"
-
+import "./commands/createUser/createUser"

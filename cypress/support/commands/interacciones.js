@@ -5,6 +5,19 @@ Cypress.Commands.add("realizarClic", (selector) => {
   .click({force: true});
 });
 
+Cypress.Commands.add("realizarClicCc", (selector) => {
+  cy.get(selector).as("elemento");
+  cy.get("@elemento")
+  .should("be.enable")
+  .click({force: true});
+});
+
+Cypress.Commands.add("seleccionar", (valor, selector) => {
+  cy.get(selector).as("elemento");
+  cy.get("@elemento")
+  .should('have.text', 'CC')
+});
+
 Cypress.Commands.add("escribir", (texto, selector) => {
     if(texto === null){
       return ; // no ejecuta la acción
